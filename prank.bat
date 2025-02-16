@@ -4,7 +4,7 @@ mode con: cols=10 lines=1
 title System Update
 
 :: Download the "GOTCHA" image
-curl -o "%temp%\gotcha.jpg" "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/main/gotcha.jpg"
+curl -o "%temp%\gotcha.jpg" "https://github.com/mohsenmohsenhhh/newcrap/blob/main/gotcha.png"
 
 :: Set the image as the desktop wallpaper
 reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "%temp%\gotcha.jpg" /f
